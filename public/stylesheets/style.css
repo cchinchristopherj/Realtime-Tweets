@@ -1,0 +1,103 @@
+html{
+    height:100%;
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font:11px sans-serif;
+}
+
+path:hover{
+    fill-opacity:.7;
+}
+
+div.tooltip{
+   position:absolute;
+   text-align:center;
+   width:60px;
+   height:28px;
+   padding:2px;
+   font:12px sans-serif;
+   background:white;
+   border:0px;
+   border-radius:8px;
+   pointer-events:none;
+}
+
+blockquote.twitter-tweet {
+    display: inline-block;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 10px 5px;
+    padding: 0 16px 16px 16px;
+    max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+    text-decoration: underline;
+}
+
+.fadeClass{
+    opacity:1;
+    transition: opacity 3750ms linear;
+}
+
+table{
+      width:375px;
+      table-layout:fixed;
+}
+
+table td{
+    word-break:break-word;
+    max-width:1px;
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    hyphens:auto;
+}
+
+table td:nth-of-type(1){
+    width:275px;
+}
+
+table td:nth-of-type(2){
+    width:100px;
+}
+
+#wrapper{
+    display:flex;
+}
+#d3Container{
+    flex: 0 0 65%;
+}
+#tableContainer{
+    margin-top:5px;
+    flex: 1;
+}
+
+form{
+    display:inline;
+}
