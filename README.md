@@ -8,15 +8,15 @@ Client
 
 The screenshot below is of the [web application](http://realtime-tweets-usa.herokuapp.com) developed for realtime tweet sentiment analysis. The blue circles represent the location of tweets being sent in realtime, with the size of the circles reflecting how recently they were sent (smaller circles were sent a longer time ago). The color of each state also reflects the average sentiment score of the tweets sent so far by the state's population, with green representing positive scores, red representing negative scores, and brown representing neutral scores (or no data yet received). Finally, on the right-hand side of the dashboard, a selection of realtime tweets is displayed along with their state of origin. This selection of tweets is implemented via an HTML table, which shifts upward every few seconds (removing the first, oldest row from the table in the process), to ensure that relatively the same number of tweets is always displayed on the web page.
 
-![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/Images/screenshot_main.png)
+![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/images/screenshot_main.png)
 
 Additional options are also available for the user to interact with the live twitter stream being displayed. If they want to view tweets from one state in particular, they can click on that state on the map and tweets will subsequently only be shown if they originated from the selected state. In the screenshot below, "California" was selected: 
 
-![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/Images/screenshot_state.png)
+![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/images/screenshot_state.png)
 
 The user also has the option of entering a keyword in the available text field and clicking the "Filter" button to only display tweets that contain the chosen keyword. In this way, the user can gauge the realtime opinion of the population on relevant topics of interest like "economy", "war", "election", etc. by filtering the live twitter stream by these keywords. In the screenshot below, only realtime tweets with the word "movie" are displayed. 
 
-![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/Images/screenshot_keyword.png)
+![dashboard](https://github.com/cchinchristopherj/Realtime-Tweets/blob/master/images/screenshot_keyword.png)
 
 Server
 =========================
