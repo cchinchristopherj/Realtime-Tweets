@@ -53,10 +53,10 @@ In this application, two channels are employed:
 Data
 =========================
 
-1. state_bounding_boxes.csv: Bounding box data for each of the fifty US states. Each tweet obtained via the Twitter API contains the latitude/longitude coordinates from which it was sent. This coordinate data is used in conjunction with the bounding box data from the state_bounding_boxes.csv file to determine the exact state the tweet originated from. 
+1. **state_bounding_boxes.csv:** Bounding box data for each of the fifty US states. Each tweet obtained via the Twitter API contains the latitude/longitude coordinates from which it was sent. This coordinate data is used in conjunction with the bounding box data from the state_bounding_boxes.csv file to determine the exact state the tweet originated from. 
 - Due to there not being a publicly available .csv file of bounding boxes for all 50 US states, raw bounding box data was scraped from the Map & Geospatial Information Round Table [page](http://www.ala.org/rt/magirt/publicationsab/usa) on the American Library Association website and converted into a .csv file. Web scraping was achieved using the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Python library, with code available in statebb_scraper.py.
 
-2. us-states.json: GeoJSON data for the US states. A geoAlbersUSA projection and d3 path generator will be used to convert this GeoJSON data to SVG paths, and display a map of the US client-side. 
+2. **us-states.json:** GeoJSON data for the US states. A geoAlbersUSA projection and d3 path generator will be used to convert this GeoJSON data to SVG paths, and display a map of the US client-side. 
 - Data publicly available from: https://gist.githubusercontent.com/michellechandra/0b2ce4923dc9b5809922/raw/a476b9098ba0244718b496697c5b350460d32f99/us-states.json
 
 Deployment
